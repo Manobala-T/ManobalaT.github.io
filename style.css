@@ -44,3 +44,12 @@ footer {
 a {
     color: #0077b6;
 }
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 1.2s forwards;
+}
+
+@keyframes fadeInAnimation {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
