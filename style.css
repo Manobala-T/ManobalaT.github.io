@@ -2,12 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f0f8ff;
+    color: #333;
 }
 header {
     background-color: #004466;
     color: white;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
 }
 nav {
@@ -19,6 +20,7 @@ nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
+    font-weight: bold;
 }
 nav a:hover {
     text-decoration: underline;
@@ -26,16 +28,19 @@ nav a:hover {
 section.content {
     padding: 20px;
     background-color: white;
-    margin: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 footer {
     background-color: #004466;
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
+    position: relative;
     width: 100%;
+}
+a {
+    color: #0077b6;
 }
